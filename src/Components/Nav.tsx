@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white">
-        <div className="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
+        <div className="w-full max-w-[1450px] mx-auto px-5 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src={logo} alt="DevStack" className="h-7 w-7" />
 

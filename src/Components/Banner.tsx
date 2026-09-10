@@ -2,7 +2,7 @@ import bannerStack from "../assets/banner-stack.png";
 
 const Banner = () => {
   return (
-    <section className="max-w-6xl mx-auto px-5 py-20">
+    <section className="max-w-[1450px] mx-auto px-5 py-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Left */}
         <div className="md:w-1/2">

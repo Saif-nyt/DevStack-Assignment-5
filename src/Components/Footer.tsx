@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <footer className="border-t border-gray-100 mt-20">
-      <div className="max-w-6xl mx-auto px-5 py-12">
+      <div className="max-w-[1450px] mx-auto px-5 py-12">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
           <div className="col-span-2 text-center md:col-span-2 md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-2">
@@ -46,10 +46,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-10 flex justify-between gap-3 border-t border-gray-100 pt-6 text-xs text-gray-400">
+        <div className="mt-10  flex justify-between gap-3 border-t border-gray-100 pt-6 text-xs text-gray-400">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
-          <div className="flex gap-5">
+          <div className="flex gap-3">
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
           </div>
