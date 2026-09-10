@@ -5,7 +5,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-white border-b border-gray-100">
+      <nav className="sticky top-0 z-50 border-b border-gray-100 bg-white">
         <div className="max-w-6xl mx-auto px-5 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img src={logo} alt="DevStack" className="h-7 w-7" />
@@ -19,7 +19,7 @@ const Nav = () => {
             <a className="text-pink-500" href="#">
               Home
             </a>
-            <a href="#technologies">Technologies</a>
+            <a href="#">Technologies</a>
             <a href="#">Projects</a>
             <a href="#">About</a>
             <a href="#">Contact</a>
@@ -33,7 +33,6 @@ const Nav = () => {
             </button>
           </div>
 
-          {/* Mobile  */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-2xl"
@@ -46,7 +45,7 @@ const Nav = () => {
           <div className="md:hidden px-5 pb-5">
             <div className="flex flex-col gap-4 text-sm text-gray-600">
               <a href="#">Home</a>
-              <a href="#technologies">Technologies</a>
+              <a href="#">Technologies</a>
               <a href="#">Projects</a>
               <a href="#">About</a>
               <a href="#">Contact</a>
