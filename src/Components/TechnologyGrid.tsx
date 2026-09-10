@@ -60,7 +60,7 @@ const TechnologyGrid = () => {
 
   return (
    
- <div className="container mx-auto px-5">
+ <div className="max-w-6xl mx-auto px-5">
     
 
       <div className="mb-8  ">
@@ -85,7 +85,7 @@ const TechnologyGrid = () => {
 
         
 
-        <div className="container mx-auto pd- 10 grid grid-cols-1 md:grid-cols-4 gap-4">
+        <div className=" pd- 10 grid grid-cols-1 md:grid-cols-4 gap-4">
 
           {technologies.map((technology) => (
 
