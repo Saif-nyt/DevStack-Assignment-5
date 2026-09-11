@@ -1,32 +1,31 @@
-# React + TypeScript + Vite
+Project name: StackBuilder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Description: It's a web app where developer can explore, compare, and build their ideal technology stack. The colo theme for the website is kept blue pulple and pink.
 
-Currently, two official plugins are available:
+Technology used: Maily React.js, Typescript, React-Toastify, Vite, Tailwind CSS 4. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+3 Feature of my website: Interactive, Responsive, it also has smart selection system.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<!-- Questions -->
 
-## Expanding the Oxlint configuration
+i. We can say jsx is a mixture of HTML & Javascript. Mainly it's javascript syntax which looks like HTML. It is used in react to understand and write code in much easier way.
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+ii. Props are used to send data from one component to another. On the other hand state data stays in the component which we canusze to logically implement something.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+iii. Usestate stores data that we can later use in any logical implement. I used usestate in mobile menu.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+iv. useEffect lets us run some code conditionally (when something happens) like when project started we need useEffect to load the JSON data
+
+v. Every item in a .map() list need a unique key prop to identify items separately thus it can update the correct item when the list changes. 
+
+vi. Conditional rendering means showing something only when a condition is true. I used it for the mobile menu
+
+vii. I pass data from a parent component to a child components using props. Child can't directly send data to the parent but the parent can receive data from the child through a callback it's done by lifting state up.
+
+
+
+
+
+
+

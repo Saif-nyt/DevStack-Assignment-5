@@ -9,7 +9,7 @@ const Banner = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-900">
             Build Your Ideal
             <br />
-            <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600 bg-clip-text text-transparent">
+            <span className=" bg-clip-text text-transparent" style={{ backgroundImage: "var(--brand-gradient)" }}>
               Development Stack
             </span>
           </h1>
@@ -21,7 +21,7 @@ const Banner = () => {
           </p>
 
           <div className="flex gap-3 mt-8">
-            <button className="text-white text-sm px-4 py-3 rounded-md bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600">
+            <button className="text-white text-sm px-4 py-3 rounded-md " style={{ backgroundImage: "var(--brand-gradient)" }}>
               Explore Technologies
             </button>
 

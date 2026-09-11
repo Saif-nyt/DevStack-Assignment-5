@@ -28,7 +28,10 @@ const Nav = () => {
           <div className="hidden md:flex items-center gap-4">
             <button className="text-sm text-gray-600">Sign In</button>
 
-            <button className="text-sm text-white px-5 py-2 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600">
+            <button
+              className="text-sm text-white px-5 py-2 rounded-full"
+              style={{ backgroundImage: "var(--brand-gradient)" }}
+            >
               Sign Up
             </button>
           </div>
