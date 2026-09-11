@@ -33,14 +33,19 @@ const TechnologyGrid = () => {
   };
 
   const handleRemove = (id: string) => {
+    const removedTechnology = stack.find((technology) => technology.id === id);
     const newStack = stack.filter((technology) => technology.id !== id);
 
     setStack(newStack);
+    toast.info(
+      `${removedTechnology?.name ?? "Technology"} removed from stack.`,
+    );
   };
 
   // Remove all
   const handleRemoveAll = () => {
     setStack([]);
+    toast.info("All technologies removed from your stack.");
   };
 
   if (loading) {
@@ -62,7 +67,6 @@ const TechnologyGrid = () => {
               style={{
                 backgroundImage: "var(--brand-gradient)",
                 backgroundClip: "text",
-              
               }}
             >
               Technologies
